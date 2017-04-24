@@ -1,0 +1,11 @@
+
+
+1- Entrar en modo root
+
+2- Entramos en "cd /etc/yum.repos.d/"
+   wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo 
+
+3- Actualizamos los paquetes: Tardara Un rato --> dnf update  
+
+4-
+   
