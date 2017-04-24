@@ -8,5 +8,10 @@
 
 3- Actualizamos los paquetes: Tardara Un rato --> dnf update  
 
-4-
-   
+4- Instalamos los repositorios necesarios para virtual box: 
+   dnf install binutils gcc make patch libgomp glibc-headers glibc-devel kernel-headers kernel-devel dkms
+
+5- Instalamos el paquete virtual box 5.1: dnf install VirtualBox-5.1
+
+6- Añadimos nuestro usuario al grupo vbox: usermod -a -G vboxusers user_name
+
